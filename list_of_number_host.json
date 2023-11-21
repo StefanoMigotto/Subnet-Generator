@@ -1,0 +1,131 @@
+{
+
+    "subnet_1": {
+        "subnet": 1,
+        "host": 2147483646
+    },
+    "subnet_2": {
+        "subnet": 2,
+        "host": 1073741822 
+    },
+    "subnet_3": {
+        "subnet": 3,
+        "host": 536870910  
+    },
+    "subnet_4": {
+        "subnet": 4,
+        "host": 268435454  
+    },
+    "subnet_5": {
+        "subnet": 5,
+        "host": 134217726  
+    },
+    "subnet_6": {
+        "subnet": 6,
+        "host": 67108862  
+    },
+    "subnet_7": {
+        "subnet": 7,
+        "host": 3355443  
+    },
+    "subnet_8": {
+        "subnet": 8,
+        "host": 16777214
+    },
+    "subnet_9": {
+        "subnet": 9,
+        "host": 8388606 
+    },
+    "subnet_10": {
+        "subnet": 10,
+        "host": 4194302
+    },
+    "subnet_11": {
+        "subnet": 11,
+        "host": 2097150
+    },
+    "subnet_12": {
+        "subnet": 12,
+        "host": 1048574
+    },
+    "subnet_13": {
+        "subnet": 13,
+        "host": 524286
+    },
+    "subnet_14": {
+        "subnet": 14,
+        "host": 262142 
+    },
+    "subnet_15": {
+        "subnet": 15,
+        "host": 131070
+    },
+    "subnet_16": {
+        "subnet": 16,
+        "host": 65534 
+    },
+    "subnet_17": {
+        "subnet": 17,
+        "host": 32766 
+    },
+    "subnet_18": {
+        "subnet": 18,
+        "host": 16382 
+    },
+    "subnet_19": {
+        "subnet": 19,
+        "host": 8190
+    },
+    "subnet_20": {
+        "subnet": 20,
+        "host": 4094
+    },
+    "subnet_21": {
+        "subnet": 21,
+        "host": 2046
+    },
+    "subnet_22": {
+        "subnet": 22,
+        "host": 1022
+    },
+    "subnet_23": {
+        "subnet": 23,
+        "host": 510
+    },
+    "subnet_24": {
+        "subnet": 24,
+        "host": 254
+    },
+    "subnet_25": {
+        "subnet": 25,
+        "host": 126
+    },
+    "subnet_26": {
+        "subnet": 26,
+        "host": 62
+    },
+    "subnet_27": {
+        "subnet": 27,
+        "host": 30 
+    },
+    "subnet_28": {
+        "subnet": 28,
+        "host": 14 
+    },
+    "subnet_29": {
+        "subnet": 29,
+        "host": 6 
+    },
+    "subnet_30": {
+        "subnet": 30,
+        "host": 2 
+    },
+    "subnet_31": {
+        "subnet": 31,
+        "host": 0
+    },
+    "subnet_32": {
+        "subnet": 31,
+        "host": 0
+    }
+}
