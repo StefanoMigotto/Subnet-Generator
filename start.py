@@ -37,3 +37,5 @@ for j in range(len(array_of_networks)):
 
 for i in range(len(array_of_networks)):
     print("Network: " + str(array_of_networks[i][0]) + " Host Richiesti: " + str(array_of_networks[i][1]) + " Host Ricevuti: " + str(arrayTable[i][2]) + " IP Rete: " + str(arrayTable[i][3]) + "/" + str(arrayTable[i][6]) + " SubnetMask: " + str(arrayTable[i][1]) + " Broadcast: " + str(arrayTable[i][4] + arrayTable[i][5]))
+
+input()
