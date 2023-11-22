@@ -7,7 +7,6 @@ array_of_networks = []
 arrayTable = []
 
 ip_address = [int(input("IP-D1: ")),int(input("IP-D2: ")),int(input("IP-D3: ")),int(input("IP-D4: "))]
-ip_subnet = int(input("IP.Subnet: "))
 total_of_networks = int(input("Total of Network: "))
 
 print("TIP: Per il correto funzionamento inserisci in ordine decrescente le reti con più HOST.")
@@ -27,8 +26,18 @@ for j in range(len(array_of_networks)):
             if array_of_networks[j][0] == 1: #SUBNET                        MASK                        HOST                       IP ADDRESS      IP ADDRESS D1          BROADCAST
                 arrayTable.append([data['subnet_'+str(i)]['subnet'],data['subnet_'+str(i)]['mask'],data['subnet_'+str(i)]['host'], ip_address,str(ip_address[0]), str(data['subnet_'+str(i)]['broadcast']),data['subnet_'+str(i)]['subnet']])
             else:
-                BR_MOD = data['subnet_'+str(i)]['broadcast']['B3']+1
-                BROADCAST_MODIFICATO = str(ip_address[0]) + "." + str(data['subnet_'+str(i)]['broadcast']['B2'])+ "." + str(BR_MOD) + ".0"
+                if(data['subnet_'+str(i)]['broadcast']['B4'] == 255):
+                    BR_MOD_2 = str(data['subnet_'+str(i)]['broadcast']['B2'])
+                    BR_MOD_3 = data['subnet_'+str(i)]['broadcast']['B3']+1
+                    BR_MOD_4 = 0
+                elif data['subnet_'+str(i)]['broadcast']['B3'] == 255:
+                    BR_MOD_2 = str(data['subnet_'+str(i)]['broadcast']['B1'])
+                    BR_MOD_2 = str(data['subnet_'+str(i)]['broadcast']['B2'])
+                    BR_MOD_3 = 0 
+                
+                
+                
+                BROADCAST_MODIFICATO = str(ip_address[0]) + "." + str(BR_MOD_2) + "." + str(BR_MOD_3) + "." + str(BR_MOD_4)
 
 
                 arrayTable.append([data['subnet_'+str(i)]['subnet'],data['subnet_'+str(i)]['mask'],data['subnet_'+str(i)]['host'],BROADCAST_MODIFICATO, str(ip_address[0]),str(data['subnet_'+str(i)]['broadcast']), data['subnet_'+str(i)]['subnet']])
